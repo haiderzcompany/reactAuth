@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .tw-breadcrumb {
+    @apply relative;
+    @apply before:absolute;
+    @apply before:content-[''];
+    @apply before:opacity-40;
+    @apply before:top-0;
+    @apply before:left-0;
+    @apply before:w-full;
+    @apply before:h-full;
+    @apply before:bg-black;
+
+    @apply justify-center;
+    @apply items-center;
+    @apply h-[200px];
+  }
+  .tw-breadcrumb-title {
+    @apply font-semibold;
+    @apply text-white;
+    @apply text-3xl;
+    @apply mb-3;
+  }
+
+  .tw-breadcrumb-steps {
+    @apply flex;
+    @apply gap-5;
+    @apply text-white;
+    @apply font-semibold;
+    @apply justify-center;
+    @apply items-center;
+  }
+  .tw-breadcrumb-steps .divi {
+    @apply relative;
+    @apply before:absolute;
+    @apply before:content-['/'];
+
+    @apply rounded-full;
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+    @apply p-3;
+    @apply before:text-white;
+  }
+}

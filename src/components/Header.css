@@ -1,0 +1,33 @@
+.cls-1 {
+  font-size: 45px;
+  stroke: #fff;
+  fill: #fff;
+}
+
+.cls-1,
+.cls-2 {
+  font-family: CourierNewPS-BoldItalicMT, 'Courier New';
+}
+
+.cls-3 {
+  fill: none;
+  stroke-width: 7px;
+}
+
+.cls-3,
+.cls-4 {
+  stroke-miterlimit: 10;
+  stroke: #fff;
+}
+
+.cls-4 {
+  font-family: RobotoSerifNormalItalic-SemiBoldItalic, 'Roboto Serif';
+  font-size: 17.69px;
+  font-variation-settings: 'wdth' 100, 'opsz' 20, 'wght' 600, 'GRAD' 0;
+}
+
+.cls-2 {
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  stroke: #fff;
+}
